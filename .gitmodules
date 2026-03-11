@@ -1,3 +1,9 @@
 [submodule "pico/include/pico-sdk"]
 	path = pico/include/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "pico/include/simon-speck"]
+	path = pico/include/simon-speck
+	url = https://github.com/nsacyber/simon-speck.git
+[submodule "pico/include/cryptopp"]
+	path = pico/include/cryptopp
+	url = https://github.com/weidai11/cryptopp.git

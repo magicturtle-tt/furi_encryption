@@ -100,10 +100,374 @@ CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/tiny-AES-c/aes.c -o CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.s
 
+CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/allocate.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/allocate.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/allocate.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/allocate.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/cpu.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/cpu.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/cpu.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/cpu.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/cryptlib.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/cryptlib.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/cryptlib.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/cryptlib.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/fips140.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/fips140.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/fips140.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/fips140.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/filters.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/filters.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/filters.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/filters.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/hight.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/hight.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/hight.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/hight.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/lea.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/lea.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/lea.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/lea.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/misc.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/misc.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/misc.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/misc.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/rc5.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/rc5.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/rc5.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/rc5.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/seed.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/seed.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/seed.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/seed.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/simeck.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/simeck.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/simeck.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/simeck.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/simon.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/simon.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/simon.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/simon.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/speck.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/speck.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/speck.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/speck.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/tea.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/tea.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/tea.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/tea.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/twofish.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/twofish.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/twofish.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/twofish.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.s
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o: /Users/tylerfield/furi_encryption/pico/include/cryptopp/tftables.cpp
+CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o -MF CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/cryptopp/tftables.cpp
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/include/cryptopp/tftables.cpp > CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.i
+
+CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/include/cryptopp/tftables.cpp -o CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/tinyaes_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/tinyaes_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tylerfield/furi_encryption/pico/src/algorithms/tinyaes_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tylerfield/furi_encryption/pico/src/algorithms/tinyaes_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/lea_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/lea_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/lea_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/lea_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/tea_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/tea_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/tea_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/tea_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/rc5_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/rc5_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/rc5_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/rc5_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/twofish_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/twofish_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/twofish_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/twofish_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/simeck_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/simeck_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/simeck_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/simeck_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/simon_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/simon_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/simon_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/simon_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/speck_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/speck_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/speck_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/speck_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/hight_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/hight_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/hight_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/hight_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.s
+
+CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o: /Users/tylerfield/furi_encryption/pico/src/algorithms/seed_exp.cpp
+CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -MD -MT CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o -MF CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o.d -o CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o -c /Users/tylerfield/furi_encryption/pico/src/algorithms/seed_exp.cpp
+
+CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -E /Users/tylerfield/furi_encryption/pico/src/algorithms/seed_exp.cpp > CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.i
+
+CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fexceptions -frtti -S /Users/tylerfield/furi_encryption/pico/src/algorithms/seed_exp.cpp -o CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.s
+
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -117,7 +481,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdli
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -131,7 +495,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpi
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -145,7 +509,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platfor
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -159,7 +523,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_com
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -173,7 +537,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_platform_pan
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -187,7 +551,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/hardware_claim/claim.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -201,7 +565,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync/syn
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -215,7 +579,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_sync_spi
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -228,7 +592,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq.
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -242,7 +606,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_irq/irq_
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -256,7 +620,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/sem.c.s: cm
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -270,7 +634,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -284,7 +648,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/mutex.c.s: 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -298,7 +662,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_sync/critical_se
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -312,7 +676,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/time.c.s: c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -326,7 +690,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_time/timeout_hel
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -340,7 +704,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_timer/ti
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -354,7 +718,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/datetime.c.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -368,7 +732,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/pheap.c.s: 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -382,7 +746,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/common/pico_util/queue.c.s: 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -396,7 +760,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_uart/uar
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -410,7 +774,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_clocks/c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -424,7 +788,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_pll/pll.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -438,7 +802,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_vreg/vre
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -452,7 +816,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -466,7 +830,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_ticks/ti
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -480,7 +844,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/boot
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -494,7 +858,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bootrom/boot
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -508,7 +872,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_boot_loc
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -522,7 +886,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_flash/flash.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -535,7 +899,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xosc/xos
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -549,7 +913,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -563,7 +927,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime/runt
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -577,7 +941,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -591,7 +955,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -604,7 +968,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_runtime_init
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -617,7 +981,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_bit_ops/bit_
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -630,7 +994,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_divider/divi
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -644,7 +1008,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -658,7 +1022,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -671,7 +1035,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -684,7 +1048,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -697,7 +1061,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_int64_ops/pi
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -711,7 +1075,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -725,7 +1089,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -738,7 +1102,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -752,7 +1116,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -765,7 +1129,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_malloc/mallo
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -779,7 +1143,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_mem_ops/mem_
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -793,7 +1157,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_atomic/atomi
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -807,7 +1171,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_cxx_options/
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -821,7 +1185,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_standard_bin
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -834,7 +1198,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_printf/print
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building ASM object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -848,7 +1212,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -862,7 +1226,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interfa
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -876,7 +1240,7 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/furi_encryption.dir/flags.make
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -887,10 +1251,386 @@ CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/furi_encryption.dir/flags.make
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/furi_encryption.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 # Object files for target furi_encryption
 furi_encryption_OBJECTS = \
 "CMakeFiles/furi_encryption.dir/src/main.cpp.o" \
 "CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o" \
+"CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o" \
+"CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o" \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -947,13 +1687,64 @@ furi_encryption_OBJECTS = \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 
 # External object files for target furi_encryption
 furi_encryption_EXTERNAL_OBJECTS =
 
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/main.cpp.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -1011,11 +1802,36 @@ furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_com
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+furi_encryption.elf: CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/build.make
 furi_encryption.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 furi_encryption.elf: /Users/tylerfield/furi_encryption/pico/include/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 furi_encryption.elf: CMakeFiles/furi_encryption.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable furi_encryption.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tylerfield/furi_encryption/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Linking CXX executable furi_encryption.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/furi_encryption.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objdump -h /Users/tylerfield/furi_encryption/pico/build/furi_encryption.elf > furi_encryption.dis
 	/opt/homebrew/bin/arm-none-eabi-objdump -d /Users/tylerfield/furi_encryption/pico/build/furi_encryption.elf >> furi_encryption.dis

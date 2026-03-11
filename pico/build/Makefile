@@ -178,8 +178,21 @@ pioasmBuild: cmake_check_build_system
 
 # fast build rule for target.
 pioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
 .PHONY : pioasmBuild/fast
+
+#=============================================================================
+# Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# Build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# fast build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 #=============================================================================
 # Target rules for targets named pico_status_led_ws2812_pio_h
@@ -193,6 +206,822 @@ pico_status_led_ws2812_pio_h: cmake_check_build_system
 pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
+
+include/cryptopp/allocate.o: include/cryptopp/allocate.cpp.o
+.PHONY : include/cryptopp/allocate.o
+
+# target to build an object file
+include/cryptopp/allocate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.o
+.PHONY : include/cryptopp/allocate.cpp.o
+
+include/cryptopp/allocate.i: include/cryptopp/allocate.cpp.i
+.PHONY : include/cryptopp/allocate.i
+
+# target to preprocess a source file
+include/cryptopp/allocate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.i
+.PHONY : include/cryptopp/allocate.cpp.i
+
+include/cryptopp/allocate.s: include/cryptopp/allocate.cpp.s
+.PHONY : include/cryptopp/allocate.s
+
+# target to generate assembly for a file
+include/cryptopp/allocate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/allocate.cpp.s
+.PHONY : include/cryptopp/allocate.cpp.s
+
+include/cryptopp/cpu.o: include/cryptopp/cpu.cpp.o
+.PHONY : include/cryptopp/cpu.o
+
+# target to build an object file
+include/cryptopp/cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.o
+.PHONY : include/cryptopp/cpu.cpp.o
+
+include/cryptopp/cpu.i: include/cryptopp/cpu.cpp.i
+.PHONY : include/cryptopp/cpu.i
+
+# target to preprocess a source file
+include/cryptopp/cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.i
+.PHONY : include/cryptopp/cpu.cpp.i
+
+include/cryptopp/cpu.s: include/cryptopp/cpu.cpp.s
+.PHONY : include/cryptopp/cpu.s
+
+# target to generate assembly for a file
+include/cryptopp/cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cpu.cpp.s
+.PHONY : include/cryptopp/cpu.cpp.s
+
+include/cryptopp/cryptlib.o: include/cryptopp/cryptlib.cpp.o
+.PHONY : include/cryptopp/cryptlib.o
+
+# target to build an object file
+include/cryptopp/cryptlib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.o
+.PHONY : include/cryptopp/cryptlib.cpp.o
+
+include/cryptopp/cryptlib.i: include/cryptopp/cryptlib.cpp.i
+.PHONY : include/cryptopp/cryptlib.i
+
+# target to preprocess a source file
+include/cryptopp/cryptlib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.i
+.PHONY : include/cryptopp/cryptlib.cpp.i
+
+include/cryptopp/cryptlib.s: include/cryptopp/cryptlib.cpp.s
+.PHONY : include/cryptopp/cryptlib.s
+
+# target to generate assembly for a file
+include/cryptopp/cryptlib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/cryptlib.cpp.s
+.PHONY : include/cryptopp/cryptlib.cpp.s
+
+include/cryptopp/filters.o: include/cryptopp/filters.cpp.o
+.PHONY : include/cryptopp/filters.o
+
+# target to build an object file
+include/cryptopp/filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.o
+.PHONY : include/cryptopp/filters.cpp.o
+
+include/cryptopp/filters.i: include/cryptopp/filters.cpp.i
+.PHONY : include/cryptopp/filters.i
+
+# target to preprocess a source file
+include/cryptopp/filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.i
+.PHONY : include/cryptopp/filters.cpp.i
+
+include/cryptopp/filters.s: include/cryptopp/filters.cpp.s
+.PHONY : include/cryptopp/filters.s
+
+# target to generate assembly for a file
+include/cryptopp/filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/filters.cpp.s
+.PHONY : include/cryptopp/filters.cpp.s
+
+include/cryptopp/fips140.o: include/cryptopp/fips140.cpp.o
+.PHONY : include/cryptopp/fips140.o
+
+# target to build an object file
+include/cryptopp/fips140.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.o
+.PHONY : include/cryptopp/fips140.cpp.o
+
+include/cryptopp/fips140.i: include/cryptopp/fips140.cpp.i
+.PHONY : include/cryptopp/fips140.i
+
+# target to preprocess a source file
+include/cryptopp/fips140.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.i
+.PHONY : include/cryptopp/fips140.cpp.i
+
+include/cryptopp/fips140.s: include/cryptopp/fips140.cpp.s
+.PHONY : include/cryptopp/fips140.s
+
+# target to generate assembly for a file
+include/cryptopp/fips140.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/fips140.cpp.s
+.PHONY : include/cryptopp/fips140.cpp.s
+
+include/cryptopp/hight.o: include/cryptopp/hight.cpp.o
+.PHONY : include/cryptopp/hight.o
+
+# target to build an object file
+include/cryptopp/hight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.o
+.PHONY : include/cryptopp/hight.cpp.o
+
+include/cryptopp/hight.i: include/cryptopp/hight.cpp.i
+.PHONY : include/cryptopp/hight.i
+
+# target to preprocess a source file
+include/cryptopp/hight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.i
+.PHONY : include/cryptopp/hight.cpp.i
+
+include/cryptopp/hight.s: include/cryptopp/hight.cpp.s
+.PHONY : include/cryptopp/hight.s
+
+# target to generate assembly for a file
+include/cryptopp/hight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/hight.cpp.s
+.PHONY : include/cryptopp/hight.cpp.s
+
+include/cryptopp/lea.o: include/cryptopp/lea.cpp.o
+.PHONY : include/cryptopp/lea.o
+
+# target to build an object file
+include/cryptopp/lea.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.o
+.PHONY : include/cryptopp/lea.cpp.o
+
+include/cryptopp/lea.i: include/cryptopp/lea.cpp.i
+.PHONY : include/cryptopp/lea.i
+
+# target to preprocess a source file
+include/cryptopp/lea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.i
+.PHONY : include/cryptopp/lea.cpp.i
+
+include/cryptopp/lea.s: include/cryptopp/lea.cpp.s
+.PHONY : include/cryptopp/lea.s
+
+# target to generate assembly for a file
+include/cryptopp/lea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/lea.cpp.s
+.PHONY : include/cryptopp/lea.cpp.s
+
+include/cryptopp/misc.o: include/cryptopp/misc.cpp.o
+.PHONY : include/cryptopp/misc.o
+
+# target to build an object file
+include/cryptopp/misc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.o
+.PHONY : include/cryptopp/misc.cpp.o
+
+include/cryptopp/misc.i: include/cryptopp/misc.cpp.i
+.PHONY : include/cryptopp/misc.i
+
+# target to preprocess a source file
+include/cryptopp/misc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.i
+.PHONY : include/cryptopp/misc.cpp.i
+
+include/cryptopp/misc.s: include/cryptopp/misc.cpp.s
+.PHONY : include/cryptopp/misc.s
+
+# target to generate assembly for a file
+include/cryptopp/misc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/misc.cpp.s
+.PHONY : include/cryptopp/misc.cpp.s
+
+include/cryptopp/rc5.o: include/cryptopp/rc5.cpp.o
+.PHONY : include/cryptopp/rc5.o
+
+# target to build an object file
+include/cryptopp/rc5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.o
+.PHONY : include/cryptopp/rc5.cpp.o
+
+include/cryptopp/rc5.i: include/cryptopp/rc5.cpp.i
+.PHONY : include/cryptopp/rc5.i
+
+# target to preprocess a source file
+include/cryptopp/rc5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.i
+.PHONY : include/cryptopp/rc5.cpp.i
+
+include/cryptopp/rc5.s: include/cryptopp/rc5.cpp.s
+.PHONY : include/cryptopp/rc5.s
+
+# target to generate assembly for a file
+include/cryptopp/rc5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/rc5.cpp.s
+.PHONY : include/cryptopp/rc5.cpp.s
+
+include/cryptopp/seed.o: include/cryptopp/seed.cpp.o
+.PHONY : include/cryptopp/seed.o
+
+# target to build an object file
+include/cryptopp/seed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.o
+.PHONY : include/cryptopp/seed.cpp.o
+
+include/cryptopp/seed.i: include/cryptopp/seed.cpp.i
+.PHONY : include/cryptopp/seed.i
+
+# target to preprocess a source file
+include/cryptopp/seed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.i
+.PHONY : include/cryptopp/seed.cpp.i
+
+include/cryptopp/seed.s: include/cryptopp/seed.cpp.s
+.PHONY : include/cryptopp/seed.s
+
+# target to generate assembly for a file
+include/cryptopp/seed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/seed.cpp.s
+.PHONY : include/cryptopp/seed.cpp.s
+
+include/cryptopp/simeck.o: include/cryptopp/simeck.cpp.o
+.PHONY : include/cryptopp/simeck.o
+
+# target to build an object file
+include/cryptopp/simeck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.o
+.PHONY : include/cryptopp/simeck.cpp.o
+
+include/cryptopp/simeck.i: include/cryptopp/simeck.cpp.i
+.PHONY : include/cryptopp/simeck.i
+
+# target to preprocess a source file
+include/cryptopp/simeck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.i
+.PHONY : include/cryptopp/simeck.cpp.i
+
+include/cryptopp/simeck.s: include/cryptopp/simeck.cpp.s
+.PHONY : include/cryptopp/simeck.s
+
+# target to generate assembly for a file
+include/cryptopp/simeck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simeck.cpp.s
+.PHONY : include/cryptopp/simeck.cpp.s
+
+include/cryptopp/simon.o: include/cryptopp/simon.cpp.o
+.PHONY : include/cryptopp/simon.o
+
+# target to build an object file
+include/cryptopp/simon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.o
+.PHONY : include/cryptopp/simon.cpp.o
+
+include/cryptopp/simon.i: include/cryptopp/simon.cpp.i
+.PHONY : include/cryptopp/simon.i
+
+# target to preprocess a source file
+include/cryptopp/simon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.i
+.PHONY : include/cryptopp/simon.cpp.i
+
+include/cryptopp/simon.s: include/cryptopp/simon.cpp.s
+.PHONY : include/cryptopp/simon.s
+
+# target to generate assembly for a file
+include/cryptopp/simon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/simon.cpp.s
+.PHONY : include/cryptopp/simon.cpp.s
+
+include/cryptopp/speck.o: include/cryptopp/speck.cpp.o
+.PHONY : include/cryptopp/speck.o
+
+# target to build an object file
+include/cryptopp/speck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.o
+.PHONY : include/cryptopp/speck.cpp.o
+
+include/cryptopp/speck.i: include/cryptopp/speck.cpp.i
+.PHONY : include/cryptopp/speck.i
+
+# target to preprocess a source file
+include/cryptopp/speck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.i
+.PHONY : include/cryptopp/speck.cpp.i
+
+include/cryptopp/speck.s: include/cryptopp/speck.cpp.s
+.PHONY : include/cryptopp/speck.s
+
+# target to generate assembly for a file
+include/cryptopp/speck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/speck.cpp.s
+.PHONY : include/cryptopp/speck.cpp.s
+
+include/cryptopp/tea.o: include/cryptopp/tea.cpp.o
+.PHONY : include/cryptopp/tea.o
+
+# target to build an object file
+include/cryptopp/tea.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.o
+.PHONY : include/cryptopp/tea.cpp.o
+
+include/cryptopp/tea.i: include/cryptopp/tea.cpp.i
+.PHONY : include/cryptopp/tea.i
+
+# target to preprocess a source file
+include/cryptopp/tea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.i
+.PHONY : include/cryptopp/tea.cpp.i
+
+include/cryptopp/tea.s: include/cryptopp/tea.cpp.s
+.PHONY : include/cryptopp/tea.s
+
+# target to generate assembly for a file
+include/cryptopp/tea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tea.cpp.s
+.PHONY : include/cryptopp/tea.cpp.s
+
+include/cryptopp/tftables.o: include/cryptopp/tftables.cpp.o
+.PHONY : include/cryptopp/tftables.o
+
+# target to build an object file
+include/cryptopp/tftables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.o
+.PHONY : include/cryptopp/tftables.cpp.o
+
+include/cryptopp/tftables.i: include/cryptopp/tftables.cpp.i
+.PHONY : include/cryptopp/tftables.i
+
+# target to preprocess a source file
+include/cryptopp/tftables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.i
+.PHONY : include/cryptopp/tftables.cpp.i
+
+include/cryptopp/tftables.s: include/cryptopp/tftables.cpp.s
+.PHONY : include/cryptopp/tftables.s
+
+# target to generate assembly for a file
+include/cryptopp/tftables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/tftables.cpp.s
+.PHONY : include/cryptopp/tftables.cpp.s
+
+include/cryptopp/twofish.o: include/cryptopp/twofish.cpp.o
+.PHONY : include/cryptopp/twofish.o
+
+# target to build an object file
+include/cryptopp/twofish.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.o
+.PHONY : include/cryptopp/twofish.cpp.o
+
+include/cryptopp/twofish.i: include/cryptopp/twofish.cpp.i
+.PHONY : include/cryptopp/twofish.i
+
+# target to preprocess a source file
+include/cryptopp/twofish.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.i
+.PHONY : include/cryptopp/twofish.cpp.i
+
+include/cryptopp/twofish.s: include/cryptopp/twofish.cpp.s
+.PHONY : include/cryptopp/twofish.s
+
+# target to generate assembly for a file
+include/cryptopp/twofish.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/cryptopp/twofish.cpp.s
+.PHONY : include/cryptopp/twofish.cpp.s
+
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.o: include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.i: include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.s: include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+include/pico-sdk/lib/tinyusb/src/device/usbd.o: include/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+
+include/pico-sdk/lib/tinyusb/src/device/usbd.i: include/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+include/pico-sdk/lib/tinyusb/src/device/usbd.s: include/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.o: include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.i: include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.s: include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+include/pico-sdk/lib/tinyusb/src/tusb.o: include/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.o
+
+# target to build an object file
+include/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.c.o
+
+include/pico-sdk/lib/tinyusb/src/tusb.i: include/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+include/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+include/pico-sdk/lib/tinyusb/src/tusb.s: include/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+include/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : include/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 include/pico-sdk/src/common/hardware_claim/claim.o: include/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : include/pico-sdk/src/common/hardware_claim/claim.o
@@ -514,6 +1343,30 @@ include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : include/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
+include/pico-sdk/src/rp2_common/hardware_flash/flash.o: include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+
+include/pico-sdk/src/rp2_common/hardware_flash/flash.i: include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+include/pico-sdk/src/rp2_common/hardware_flash/flash.s: include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : include/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 include/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: include/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : include/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
@@ -762,6 +1615,30 @@ include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
 include/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: include/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : include/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
 
@@ -993,6 +1870,30 @@ include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: include
 include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 include/pico-sdk/src/rp2_common/pico_flash/flash.o: include/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : include/pico-sdk/src/rp2_common/pico_flash/flash.o
@@ -1362,6 +2263,78 @@ include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
 include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
@@ -1386,6 +2359,30 @@ include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+
+# target to build an object file
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
 include/tiny-AES-c/aes.o: include/tiny-AES-c/aes.c.o
 .PHONY : include/tiny-AES-c/aes.o
 
@@ -1409,6 +2406,246 @@ include/tiny-AES-c/aes.s: include/tiny-AES-c/aes.c.s
 include/tiny-AES-c/aes.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/include/tiny-AES-c/aes.c.s
 .PHONY : include/tiny-AES-c/aes.c.s
+
+src/algorithms/hight_exp.o: src/algorithms/hight_exp.cpp.o
+.PHONY : src/algorithms/hight_exp.o
+
+# target to build an object file
+src/algorithms/hight_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.o
+.PHONY : src/algorithms/hight_exp.cpp.o
+
+src/algorithms/hight_exp.i: src/algorithms/hight_exp.cpp.i
+.PHONY : src/algorithms/hight_exp.i
+
+# target to preprocess a source file
+src/algorithms/hight_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.i
+.PHONY : src/algorithms/hight_exp.cpp.i
+
+src/algorithms/hight_exp.s: src/algorithms/hight_exp.cpp.s
+.PHONY : src/algorithms/hight_exp.s
+
+# target to generate assembly for a file
+src/algorithms/hight_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/hight_exp.cpp.s
+.PHONY : src/algorithms/hight_exp.cpp.s
+
+src/algorithms/lea_exp.o: src/algorithms/lea_exp.cpp.o
+.PHONY : src/algorithms/lea_exp.o
+
+# target to build an object file
+src/algorithms/lea_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.o
+.PHONY : src/algorithms/lea_exp.cpp.o
+
+src/algorithms/lea_exp.i: src/algorithms/lea_exp.cpp.i
+.PHONY : src/algorithms/lea_exp.i
+
+# target to preprocess a source file
+src/algorithms/lea_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.i
+.PHONY : src/algorithms/lea_exp.cpp.i
+
+src/algorithms/lea_exp.s: src/algorithms/lea_exp.cpp.s
+.PHONY : src/algorithms/lea_exp.s
+
+# target to generate assembly for a file
+src/algorithms/lea_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/lea_exp.cpp.s
+.PHONY : src/algorithms/lea_exp.cpp.s
+
+src/algorithms/rc5_exp.o: src/algorithms/rc5_exp.cpp.o
+.PHONY : src/algorithms/rc5_exp.o
+
+# target to build an object file
+src/algorithms/rc5_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.o
+.PHONY : src/algorithms/rc5_exp.cpp.o
+
+src/algorithms/rc5_exp.i: src/algorithms/rc5_exp.cpp.i
+.PHONY : src/algorithms/rc5_exp.i
+
+# target to preprocess a source file
+src/algorithms/rc5_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.i
+.PHONY : src/algorithms/rc5_exp.cpp.i
+
+src/algorithms/rc5_exp.s: src/algorithms/rc5_exp.cpp.s
+.PHONY : src/algorithms/rc5_exp.s
+
+# target to generate assembly for a file
+src/algorithms/rc5_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/rc5_exp.cpp.s
+.PHONY : src/algorithms/rc5_exp.cpp.s
+
+src/algorithms/seed_exp.o: src/algorithms/seed_exp.cpp.o
+.PHONY : src/algorithms/seed_exp.o
+
+# target to build an object file
+src/algorithms/seed_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.o
+.PHONY : src/algorithms/seed_exp.cpp.o
+
+src/algorithms/seed_exp.i: src/algorithms/seed_exp.cpp.i
+.PHONY : src/algorithms/seed_exp.i
+
+# target to preprocess a source file
+src/algorithms/seed_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.i
+.PHONY : src/algorithms/seed_exp.cpp.i
+
+src/algorithms/seed_exp.s: src/algorithms/seed_exp.cpp.s
+.PHONY : src/algorithms/seed_exp.s
+
+# target to generate assembly for a file
+src/algorithms/seed_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/seed_exp.cpp.s
+.PHONY : src/algorithms/seed_exp.cpp.s
+
+src/algorithms/simeck_exp.o: src/algorithms/simeck_exp.cpp.o
+.PHONY : src/algorithms/simeck_exp.o
+
+# target to build an object file
+src/algorithms/simeck_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.o
+.PHONY : src/algorithms/simeck_exp.cpp.o
+
+src/algorithms/simeck_exp.i: src/algorithms/simeck_exp.cpp.i
+.PHONY : src/algorithms/simeck_exp.i
+
+# target to preprocess a source file
+src/algorithms/simeck_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.i
+.PHONY : src/algorithms/simeck_exp.cpp.i
+
+src/algorithms/simeck_exp.s: src/algorithms/simeck_exp.cpp.s
+.PHONY : src/algorithms/simeck_exp.s
+
+# target to generate assembly for a file
+src/algorithms/simeck_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simeck_exp.cpp.s
+.PHONY : src/algorithms/simeck_exp.cpp.s
+
+src/algorithms/simon_exp.o: src/algorithms/simon_exp.cpp.o
+.PHONY : src/algorithms/simon_exp.o
+
+# target to build an object file
+src/algorithms/simon_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.o
+.PHONY : src/algorithms/simon_exp.cpp.o
+
+src/algorithms/simon_exp.i: src/algorithms/simon_exp.cpp.i
+.PHONY : src/algorithms/simon_exp.i
+
+# target to preprocess a source file
+src/algorithms/simon_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.i
+.PHONY : src/algorithms/simon_exp.cpp.i
+
+src/algorithms/simon_exp.s: src/algorithms/simon_exp.cpp.s
+.PHONY : src/algorithms/simon_exp.s
+
+# target to generate assembly for a file
+src/algorithms/simon_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/simon_exp.cpp.s
+.PHONY : src/algorithms/simon_exp.cpp.s
+
+src/algorithms/speck_exp.o: src/algorithms/speck_exp.cpp.o
+.PHONY : src/algorithms/speck_exp.o
+
+# target to build an object file
+src/algorithms/speck_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.o
+.PHONY : src/algorithms/speck_exp.cpp.o
+
+src/algorithms/speck_exp.i: src/algorithms/speck_exp.cpp.i
+.PHONY : src/algorithms/speck_exp.i
+
+# target to preprocess a source file
+src/algorithms/speck_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.i
+.PHONY : src/algorithms/speck_exp.cpp.i
+
+src/algorithms/speck_exp.s: src/algorithms/speck_exp.cpp.s
+.PHONY : src/algorithms/speck_exp.s
+
+# target to generate assembly for a file
+src/algorithms/speck_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/speck_exp.cpp.s
+.PHONY : src/algorithms/speck_exp.cpp.s
+
+src/algorithms/tea_exp.o: src/algorithms/tea_exp.cpp.o
+.PHONY : src/algorithms/tea_exp.o
+
+# target to build an object file
+src/algorithms/tea_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.o
+.PHONY : src/algorithms/tea_exp.cpp.o
+
+src/algorithms/tea_exp.i: src/algorithms/tea_exp.cpp.i
+.PHONY : src/algorithms/tea_exp.i
+
+# target to preprocess a source file
+src/algorithms/tea_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.i
+.PHONY : src/algorithms/tea_exp.cpp.i
+
+src/algorithms/tea_exp.s: src/algorithms/tea_exp.cpp.s
+.PHONY : src/algorithms/tea_exp.s
+
+# target to generate assembly for a file
+src/algorithms/tea_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tea_exp.cpp.s
+.PHONY : src/algorithms/tea_exp.cpp.s
+
+src/algorithms/tinyaes_exp.o: src/algorithms/tinyaes_exp.cpp.o
+.PHONY : src/algorithms/tinyaes_exp.o
+
+# target to build an object file
+src/algorithms/tinyaes_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.o
+.PHONY : src/algorithms/tinyaes_exp.cpp.o
+
+src/algorithms/tinyaes_exp.i: src/algorithms/tinyaes_exp.cpp.i
+.PHONY : src/algorithms/tinyaes_exp.i
+
+# target to preprocess a source file
+src/algorithms/tinyaes_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.i
+.PHONY : src/algorithms/tinyaes_exp.cpp.i
+
+src/algorithms/tinyaes_exp.s: src/algorithms/tinyaes_exp.cpp.s
+.PHONY : src/algorithms/tinyaes_exp.s
+
+# target to generate assembly for a file
+src/algorithms/tinyaes_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/tinyaes_exp.cpp.s
+.PHONY : src/algorithms/tinyaes_exp.cpp.s
+
+src/algorithms/twofish_exp.o: src/algorithms/twofish_exp.cpp.o
+.PHONY : src/algorithms/twofish_exp.o
+
+# target to build an object file
+src/algorithms/twofish_exp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.o
+.PHONY : src/algorithms/twofish_exp.cpp.o
+
+src/algorithms/twofish_exp.i: src/algorithms/twofish_exp.cpp.i
+.PHONY : src/algorithms/twofish_exp.i
+
+# target to preprocess a source file
+src/algorithms/twofish_exp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.i
+.PHONY : src/algorithms/twofish_exp.cpp.i
+
+src/algorithms/twofish_exp.s: src/algorithms/twofish_exp.cpp.s
+.PHONY : src/algorithms/twofish_exp.s
+
+# target to generate assembly for a file
+src/algorithms/twofish_exp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/furi_encryption.dir/build.make CMakeFiles/furi_encryption.dir/src/algorithms/twofish_exp.cpp.s
+.PHONY : src/algorithms/twofish_exp.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -1443,11 +2680,114 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
+	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
 	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... furi_encryption"
+	@echo "... include/cryptopp/allocate.o"
+	@echo "... include/cryptopp/allocate.i"
+	@echo "... include/cryptopp/allocate.s"
+	@echo "... include/cryptopp/cpu.o"
+	@echo "... include/cryptopp/cpu.i"
+	@echo "... include/cryptopp/cpu.s"
+	@echo "... include/cryptopp/cryptlib.o"
+	@echo "... include/cryptopp/cryptlib.i"
+	@echo "... include/cryptopp/cryptlib.s"
+	@echo "... include/cryptopp/filters.o"
+	@echo "... include/cryptopp/filters.i"
+	@echo "... include/cryptopp/filters.s"
+	@echo "... include/cryptopp/fips140.o"
+	@echo "... include/cryptopp/fips140.i"
+	@echo "... include/cryptopp/fips140.s"
+	@echo "... include/cryptopp/hight.o"
+	@echo "... include/cryptopp/hight.i"
+	@echo "... include/cryptopp/hight.s"
+	@echo "... include/cryptopp/lea.o"
+	@echo "... include/cryptopp/lea.i"
+	@echo "... include/cryptopp/lea.s"
+	@echo "... include/cryptopp/misc.o"
+	@echo "... include/cryptopp/misc.i"
+	@echo "... include/cryptopp/misc.s"
+	@echo "... include/cryptopp/rc5.o"
+	@echo "... include/cryptopp/rc5.i"
+	@echo "... include/cryptopp/rc5.s"
+	@echo "... include/cryptopp/seed.o"
+	@echo "... include/cryptopp/seed.i"
+	@echo "... include/cryptopp/seed.s"
+	@echo "... include/cryptopp/simeck.o"
+	@echo "... include/cryptopp/simeck.i"
+	@echo "... include/cryptopp/simeck.s"
+	@echo "... include/cryptopp/simon.o"
+	@echo "... include/cryptopp/simon.i"
+	@echo "... include/cryptopp/simon.s"
+	@echo "... include/cryptopp/speck.o"
+	@echo "... include/cryptopp/speck.i"
+	@echo "... include/cryptopp/speck.s"
+	@echo "... include/cryptopp/tea.o"
+	@echo "... include/cryptopp/tea.i"
+	@echo "... include/cryptopp/tea.s"
+	@echo "... include/cryptopp/tftables.o"
+	@echo "... include/cryptopp/tftables.i"
+	@echo "... include/cryptopp/tftables.s"
+	@echo "... include/cryptopp/twofish.o"
+	@echo "... include/cryptopp/twofish.i"
+	@echo "... include/cryptopp/twofish.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... include/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... include/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... include/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... include/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... include/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... include/pico-sdk/src/common/hardware_claim/claim.s"
@@ -1488,6 +2828,9 @@ help:
 	@echo "... include/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1519,6 +2862,9 @@ help:
 	@echo "... include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... include/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... include/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
@@ -1548,6 +2894,9 @@ help:
 	@echo "... include/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... include/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... include/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... include/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... include/pico-sdk/src/rp2_common/pico_flash/flash.o"
 	@echo "... include/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... include/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -1594,12 +2943,54 @@ help:
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... include/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... include/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... include/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... include/tiny-AES-c/aes.o"
 	@echo "... include/tiny-AES-c/aes.i"
 	@echo "... include/tiny-AES-c/aes.s"
+	@echo "... src/algorithms/hight_exp.o"
+	@echo "... src/algorithms/hight_exp.i"
+	@echo "... src/algorithms/hight_exp.s"
+	@echo "... src/algorithms/lea_exp.o"
+	@echo "... src/algorithms/lea_exp.i"
+	@echo "... src/algorithms/lea_exp.s"
+	@echo "... src/algorithms/rc5_exp.o"
+	@echo "... src/algorithms/rc5_exp.i"
+	@echo "... src/algorithms/rc5_exp.s"
+	@echo "... src/algorithms/seed_exp.o"
+	@echo "... src/algorithms/seed_exp.i"
+	@echo "... src/algorithms/seed_exp.s"
+	@echo "... src/algorithms/simeck_exp.o"
+	@echo "... src/algorithms/simeck_exp.i"
+	@echo "... src/algorithms/simeck_exp.s"
+	@echo "... src/algorithms/simon_exp.o"
+	@echo "... src/algorithms/simon_exp.i"
+	@echo "... src/algorithms/simon_exp.s"
+	@echo "... src/algorithms/speck_exp.o"
+	@echo "... src/algorithms/speck_exp.i"
+	@echo "... src/algorithms/speck_exp.s"
+	@echo "... src/algorithms/tea_exp.o"
+	@echo "... src/algorithms/tea_exp.i"
+	@echo "... src/algorithms/tea_exp.s"
+	@echo "... src/algorithms/tinyaes_exp.o"
+	@echo "... src/algorithms/tinyaes_exp.i"
+	@echo "... src/algorithms/tinyaes_exp.s"
+	@echo "... src/algorithms/twofish_exp.o"
+	@echo "... src/algorithms/twofish_exp.i"
+	@echo "... src/algorithms/twofish_exp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

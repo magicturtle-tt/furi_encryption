@@ -1,10 +1,16 @@
 #include "pico/stdlib.h"
 #include <cstdio>
-#include <cstring>
 
-extern "C" {
-#include "aes.h"
-}
+void run_tinyaes_experiments(void);
+void run_lea_experiments(void);
+void run_tea_experiments(void);
+void run_rc5_experiments(void);
+void run_twofish_experiments(void);
+void run_simeck_experiments(void);
+void run_simon_experiments(void);
+void run_speck_experiments(void);
+void run_hight_experiments(void);
+void run_seed_experiments(void);
 
 int main() {
     stdio_init_all();
@@ -12,25 +18,24 @@ int main() {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
-    uint8_t key[16] = {0x00};
-    uint8_t plaintext[16] = "HelloCubeSat!";
-    uint8_t buffer[16];
-
-    struct AES_ctx ctx;
-    AES_init_ctx(&ctx, key);
-
-    memcpy(buffer, plaintext, 16);
-    AES_ECB_encrypt(&ctx, buffer);
+    sleep_ms(1200);
 
     while (true) {
         gpio_put(LED_PIN, 1);
-        printf("Encrypted data:\n");
-        for(int i = 0; i < 16; i++)
-            printf("%02x ", buffer[i]);
-        printf("\n");
+        printf("algo,key_bytes,block_bytes,time_us,key0,block0,note\n");
+        run_tinyaes_experiments();
+        run_lea_experiments();
+        run_tea_experiments();
+        run_rc5_experiments();
+        run_twofish_experiments();
+        run_simeck_experiments();
+        run_simon_experiments();
+        run_speck_experiments();
+        run_hight_experiments();
+        run_seed_experiments();
 
         sleep_ms(250);
         gpio_put(LED_PIN, 0);
-        sleep_ms(250);
+        sleep_ms(1250);
     }
 }
