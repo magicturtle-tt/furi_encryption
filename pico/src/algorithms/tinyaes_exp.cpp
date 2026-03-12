@@ -31,14 +31,19 @@ void run_tinyaes_experiments(void) {
     AES_init_ctx(&ctx, key);
 
     absolute_time_t start = get_absolute_time();
-    for (size_t i = 0; i < payload_bytes; i += 16) {
-        AES_ECB_encrypt(&ctx, &buffer[i]);
+    int64_t trial = 0;
+    int64_t time_trials = 0;
+    for (int i = 0; i < 1000; i++) {
+        start = get_absolute_time();
+        AES_ECB_encrypt(&ctx, buffer);
+        trial = absolute_time_diff_us(start, get_absolute_time());
+        time_trials += trial;
     }
-    int64_t elapsed_us = absolute_time_diff_us(start, get_absolute_time());
+    int64_t avg_time = time_trials / 1000;
 
     printf("algo,payload_bytes,time_us,first_byte\n");
     printf("tinyaes_ecb_128,%u,%lld,%02x\n",
            (unsigned)payload_bytes,
-           (long long)elapsed_us,
+           (long long)avg_time,
            buffer[0]);
 }

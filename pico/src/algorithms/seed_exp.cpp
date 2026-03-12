@@ -24,17 +24,23 @@ void run_seed_experiments(void) {
     CryptoPP::SEED::Decryption dec;
     enc.SetKey(key, key_bytes);
     dec.SetKey(key, key_bytes);
-    enc.ProcessBlock(in_block, out_block);
-
     absolute_time_t start = get_absolute_time();
-    dec.ProcessBlock(out_block); // this will decrypt out_block and store it in out_block. we only care to measure the decrption part
-    int64_t elapsed_us = absolute_time_diff_us(start, get_absolute_time());
+    int64_t trial = 0;
+    int64_t time_trials = 0;
+    for(int i = 0; i < 1000; i++){
+        enc.ProcessBlock(in_block, out_block);
+        start = get_absolute_time();
+        dec.ProcessBlock(out_block);
+        trial = absolute_time_diff_us(start, get_absolute_time());
+        time_trials += trial;
+    }
+    int64_t avg_time = time_trials / 1000;
 
     printf("algo,key_bytes,block_bytes,time_us,key0,block0,note\n");
     printf("seed_cryptopp,%u,%u,%lld,%02x,%02x,%s\n",
            key_bytes,
            block_bytes,
-           static_cast<long long>(elapsed_us),
+           static_cast<long long>(avg_time),
            key[0],
            out_block[0],
            "Crypto++:SEED encrypt");
