@@ -1,74 +1,73 @@
 #include <Arduino.h>
-#include <stdint.h>
+#include <string.h>
+
+extern "C" {
+typedef struct {
+  uint32_t k[4];
+} ltc_tea_key;
+
+int ltc_tea_setup(const uint8_t* key, int keylen, ltc_tea_key* skey);
+int ltc_tea_ecb_encrypt(const uint8_t* pt, uint8_t* ct, const ltc_tea_key* skey);
+int ltc_tea_ecb_decrypt(const uint8_t* ct, uint8_t* pt, const ltc_tea_key* skey);
+}
 
 #include "exp_common.h"
 
-static inline uint32_t load32be(const uint8_t* p) {
-  return (static_cast<uint32_t>(p[0]) << 24) | (static_cast<uint32_t>(p[1]) << 16) |
-         (static_cast<uint32_t>(p[2]) << 8) | static_cast<uint32_t>(p[3]);
-}
+namespace {
 
-static inline void store32be(uint8_t* p, uint32_t v) {
-  p[0] = static_cast<uint8_t>(v >> 24);
-  p[1] = static_cast<uint8_t>(v >> 16);
-  p[2] = static_cast<uint8_t>(v >> 8);
-  p[3] = static_cast<uint8_t>(v);
-}
+const int kTeaOk = 0;
 
-static void tea_encrypt_block(const uint8_t key[16], const uint8_t in[8], uint8_t out[8]) {
-  uint32_t v0 = load32be(in);
-  uint32_t v1 = load32be(in + 4);
-  const uint32_t k0 = load32be(key);
-  const uint32_t k1 = load32be(key + 4);
-  const uint32_t k2 = load32be(key + 8);
-  const uint32_t k3 = load32be(key + 12);
+bool tea_self_test() {
+  const uint8_t tv_key[16] = {0x00};
+  const uint8_t tv_pt[8] = {0x00};
+  const uint8_t tv_ct[8] = {0x41, 0xEA, 0x3A, 0x0A, 0x94, 0xBA, 0xA9, 0x40};
 
-  uint32_t sum = 0;
-  const uint32_t delta = 0x9E3779B9UL;
-  for (int i = 0; i < 32; ++i) {
-    sum += delta;
-    v0 += ((v1 << 4) + k0) ^ (v1 + sum) ^ ((v1 >> 5) + k1);
-    v1 += ((v0 << 4) + k2) ^ (v0 + sum) ^ ((v0 >> 5) + k3);
+  ltc_tea_key skey;
+  uint8_t buf[8] = {0};
+
+  if (ltc_tea_setup(tv_key, static_cast<int>(sizeof(tv_key)), &skey) != kTeaOk) {
+    return false;
+  }
+  if (ltc_tea_ecb_encrypt(tv_pt, buf, &skey) != kTeaOk) {
+    return false;
+  }
+  if (memcmp(buf, tv_ct, sizeof(buf)) != 0) {
+    return false;
+  }
+  if (ltc_tea_ecb_decrypt(buf, buf, &skey) != kTeaOk) {
+    return false;
   }
 
-  store32be(out, v0);
-  store32be(out + 4, v1);
+  return memcmp(buf, tv_pt, sizeof(buf)) == 0;
 }
 
-static void tea_decrypt_block(const uint8_t key[16], const uint8_t in[8], uint8_t out[8]) {
-  uint32_t v0 = load32be(in);
-  uint32_t v1 = load32be(in + 4);
-  const uint32_t k0 = load32be(key);
-  const uint32_t k1 = load32be(key + 4);
-  const uint32_t k2 = load32be(key + 8);
-  const uint32_t k3 = load32be(key + 12);
-
-  uint32_t sum = 0xC6EF3720UL;
-  const uint32_t delta = 0x9E3779B9UL;
-  for (int i = 0; i < 32; ++i) {
-    v1 -= ((v0 << 4) + k2) ^ (v0 + sum) ^ ((v0 >> 5) + k3);
-    v0 -= ((v1 << 4) + k0) ^ (v1 + sum) ^ ((v1 >> 5) + k1);
-    sum -= delta;
-  }
-
-  store32be(out, v0);
-  store32be(out + 4, v1);
-}
+}  // namespace
 
 void run_tea_experiments(void) {
   const uint8_t key[16] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
                            0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F};
   const uint8_t in_block[8] = {0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17};
-  uint8_t out_block[8] = {0};
 
+  if (!tea_self_test()) {
+    print_unsupported_algo(F("tea"), 16, 8, key[0], in_block[0], F("libtomcrypt self-test failed"));
+    return;
+  }
+
+  ltc_tea_key skey;
+  if (ltc_tea_setup(key, static_cast<int>(sizeof(key)), &skey) != kTeaOk) {
+    print_unsupported_algo(F("tea"), 16, 8, key[0], in_block[0], F("libtomcrypt setup failed"));
+    return;
+  }
+
+  uint8_t out_block[8] = {0};
   unsigned long time_trials = 0UL;
   for (int i = 0; i < 200; ++i) {
     const unsigned long start = micros();
-    tea_encrypt_block(key, in_block, out_block);
-    tea_decrypt_block(key, out_block, out_block);
+    ltc_tea_ecb_encrypt(in_block, out_block, &skey);
+    ltc_tea_ecb_decrypt(out_block, out_block, &skey);
     time_trials += (micros() - start);
   }
 
-  print_experiment_row(F("tea_ref"), 16, 8, time_trials / 200UL, key[0], out_block[0],
-                       F("TEA reference C"));
+  print_experiment_row(F("tea"), 16, 8, time_trials / 200UL, key[0], out_block[0],
+                       F("libtomcrypt tea.c derived"));
 }
