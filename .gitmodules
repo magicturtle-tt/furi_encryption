@@ -7,3 +7,15 @@
 [submodule "pico/include/cryptopp"]
 	path = pico/include/cryptopp
 	url = https://github.com/weidai11/cryptopp.git
+[submodule "arduino_uno/include/cryptopp"]
+	path = arduino_uno/include/cryptopp
+	url = https://github.com/weidai11/cryptopp.git
+[submodule "arduino_uno/include/block-ciphers"]
+	path = arduino_uno/include/block-ciphers
+	url = https://github.com/openluopworld/block-ciphers.git
+[submodule "arduino_uno/include/Simeck"]
+	path = arduino_uno/include/Simeck
+	url = https://github.com/bozhu/Simeck.git
+[submodule "arduino_uno/include/libtomcrypt"]
+	path = arduino_uno/include/libtomcrypt
+	url = https://github.com/libtom/libtomcrypt.git
