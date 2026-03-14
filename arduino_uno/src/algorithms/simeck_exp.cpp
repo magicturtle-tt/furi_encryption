@@ -75,7 +75,7 @@ static bool simeck_self_test() {
 }  // namespace
 
 void run_simeck_experiments(void) {
-  const uint32_t key[4] = {0x03020100, 0x0b0a0908, 0x13121110, 0x1b1a1918};
+  const uint32_t key[4] = {0x03020100, 0x07060504, 0x0b0a0908, 0x0f0e0d0c};
   const uint32_t in_block[2] = {0x13121110, 0x17161514};
   uint32_t out_block[2] = {in_block[0], in_block[1]};
 
